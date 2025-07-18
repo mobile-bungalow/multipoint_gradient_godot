@@ -1,5 +1,18 @@
 # Godot 4+ specific ignores
 .godot/
-/android/
-*.uid
-*.import
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# MacOs
+.DS_Store

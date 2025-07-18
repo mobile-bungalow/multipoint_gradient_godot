@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://dnfq5kolkeujh"
+path="res://.godot/imported/multipoint_gradient.glsl-c46c4fe96f0b21c6b182cd368fc233fb.res"
+
+[deps]
+
+source_file="res://addons/multipoint_gradient/multipoint_gradient.glsl"
+dest_files=["res://.godot/imported/multipoint_gradient.glsl-c46c4fe96f0b21c6b182cd368fc233fb.res"]
+
+[params]
+
