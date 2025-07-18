@@ -1,7 +1,7 @@
 @tool
 extends EditorInspectorPlugin
 
-const GradientPointEditor = preload("res://addons/multipoint_gradient/gradient_point_editor.gd")
+const GradientPointEditor = preload("res://addons/multipoint_gradient_godot/gradient_point_editor.gd")
 
 func _can_handle(object):
     return object is MultipointGradient2D

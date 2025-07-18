@@ -19,7 +19,7 @@ func _initialize_compute() -> bool:
 	if _initialized:
 		return true
 	
-	var shader_file = load("res://addons/multipoint_gradient/multipoint_gradient.glsl") as RDShaderFile
+	var shader_file = load("res://addons/multipoint_gradient_godot/multipoint_gradient.glsl") as RDShaderFile
 	if not shader_file:
 		push_error("Could not load gradient shader")
 		return false

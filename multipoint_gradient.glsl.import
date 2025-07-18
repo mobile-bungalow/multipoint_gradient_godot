@@ -3,12 +3,12 @@
 importer="glsl"
 type="RDShaderFile"
 uid="uid://dnfq5kolkeujh"
-path="res://.godot/imported/multipoint_gradient.glsl-c46c4fe96f0b21c6b182cd368fc233fb.res"
+path="res://.godot/imported/multipoint_gradient.glsl-81110eba9978e30dd724b760d1d844f3.res"
 
 [deps]
 
-source_file="res://addons/multipoint_gradient/multipoint_gradient.glsl"
-dest_files=["res://.godot/imported/multipoint_gradient.glsl-c46c4fe96f0b21c6b182cd368fc233fb.res"]
+source_file="res://addons/multipoint_gradient_godot/multipoint_gradient.glsl"
+dest_files=["res://.godot/imported/multipoint_gradient.glsl-81110eba9978e30dd724b760d1d844f3.res"]
 
 [params]
 
