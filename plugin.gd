@@ -9,6 +9,7 @@ func _enter_tree():
     add_custom_type("MultipointGradient2D", "Texture2D", preload("res://addons/multipoint_gradient_godot/multipoint_gradient_2d.gd"), null)
 
     inspector_plugin = preload("res://addons/multipoint_gradient_godot/gradient_editor_inspector.gd").new()
+    inspector_plugin.setup_undo_redo(get_undo_redo())
     add_inspector_plugin(inspector_plugin)
 
     var singleton = GradientPointSingleton.new()
